@@ -1,0 +1,283 @@
+.title {
+    width: 108px;
+    height: 23px;
+}
+
+.element2 {
+    font-size: 37px;
+}
+
+.element1 {
+    font-size: 22px;
+}
+
+.collapse {
+    margin-left: 25px;
+}
+
+.navbar {
+    /* overflow: hidden; */
+    padding-right: var(--bs-gutter-x, 4.75rem);
+    padding-left: var(--bs-gutter-x, 4.75rem);
+}
+
+.nav-link {
+    font-size: 13px;
+}
+
+.button,
+.nav-link:hover {
+    border-bottom: 2px solid darkblue;
+}
+
+.button {
+    font-size: 13px;
+}
+
+.bi {
+    color: black;
+}
+
+.img-thumbnail {
+    height: 350px;
+    border-radius: 50px;
+}
+
+.img.d-block.w-100 {
+    position: relative;
+
+
+}
+
+.card.card-mobile {
+    position: absolute;
+    top: 57px;
+    left: 150px;
+    width: 525px;
+    font-size: 16px;
+}
+
+
+
+.card.card-carousel {
+    height: 312px;
+    width: 565px;
+    margin-left: -147px;
+    margin-bottom: 50px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.badge.bg-warning {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .carousel-item.img {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-caption {
+        font-size: 1em;
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .carousel-item.img {
+        height: 100%;
+        width: 100%;
+        display: none;
+    }
+}
+
+.card-body {
+    align-items: top;
+    background-color: white;
+}
+
+.btn.btn-custom {
+    background-color: #0067B8;
+    color: white;
+    margin-top: 18px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    padding: 10px;
+    border-radius: 5px;
+    width: 470px;
+    height: 280px;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        position: static;
+        display: block;
+        transform: none;
+        background-color: white;
+        padding: 0;
+        text-align: left;
+        color: #000;
+        top: 10%;
+        z-index: 1;
+    }
+
+    .carousel-caption h5,
+    .carousel-caption p {
+       
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .carousel-caption .btn-custom {
+        margin-top: 10px;
+    }
+}
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.icon1 {
+    height: 40px;
+    width: 40px;
+}
+
+.container {
+    margin-top: 90px;
+    margin-bottom: 76p x;
+}
+
+#image3 {
+    width: 1361px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.carouselslide {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+@media (max-width: 600px) {
+    .carousel-control {
+        padding: 5px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #000;
+    z-index: 1;
+    max-width: 90%;
+    /* Ensure the text container doesn't overflow */
+}
+
+.overlay-content h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.overlay-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.img.img-fluid {
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .text-container {
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .overlay-content h1 {
+        font-size: 1.8em;
+    }
+
+    .overlay-content p {
+        font-size: 1em;
+    }
+}
+.footer{
+    margin-top: 40px;
+    font-size: 11px;
+   
+}
+.footerh{
+    font-size: 15px;
+}
